@@ -3,4 +3,9 @@ Desde master
 =======
 Desde rama1
 Desde master2
+<<<<<<< HEAD
 >>>>>>> 2f88c88... master
+=======
+Desde rama1 2
+Desde master3
+>>>>>>> a8f90c2... master
