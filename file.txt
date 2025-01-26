@@ -1,1 +1,6 @@
 Desde master
+<<<<<<< HEAD
+=======
+Desde rama1
+Desde master2
+>>>>>>> 2f88c88... master
