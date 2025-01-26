@@ -1,0 +1,41 @@
+git init
+git config --local user.name "daniel"
+git config --local user.email "audobra@gmail.com"
+
+git add .
+git commit -m "Inicial master"
+
+touch file.txt
+echo "Desde master" >> file.txt
+git add .
+git commit -m "master"
+
+git checkout -b rama1
+echo "Desde rama1" >> file.txt 
+git add .
+git commit -m "rama1"
+
+git switch master
+echo "Desde master2" >> file.txt
+git add .
+git commit -m "master"
+
+git switch rama1
+echo "Desde rama1 2" >> file.txt
+git add .
+git commit -m "rama1"
+
+git switch master
+echo "Desde master3" >> file.txt
+git add .
+git commit -m "master"
+
+git switch rama1
+echo "Desde rama1 3" >> file.txt
+git add .
+git commit -m "rama1"
+
+git switch master
+git log --oneline --graph --decorate --all
+
+
