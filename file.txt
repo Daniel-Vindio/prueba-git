@@ -1,2 +1,7 @@
 Desde master
 Desde rama1
+<<<<<<< HEAD
+=======
+Desde master2
+Desde rama1 2
+>>>>>>> 095405e... rama1
