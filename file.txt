@@ -4,4 +4,9 @@ Desde rama1
 =======
 Desde master2
 Desde rama1 2
+<<<<<<< HEAD
 >>>>>>> 095405e... rama1
+=======
+Desde master3
+Desde rama1 3
+>>>>>>> ac328e0... rama1
